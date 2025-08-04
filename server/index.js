@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 
-const YOUTUBE_API_KEY = "MyAPI_Key";
+const YOUTUBE_API_KEY = "Myapi_Key";
 
 app.get("/ai-suggestions", async (req, res) => {
   const { q } = req.query;
